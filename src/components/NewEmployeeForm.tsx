@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { employeeFields, addressFields, departmentSelect } from "../data/formResources"
 import FormField from "./FormField"
-//import Modal from "../plugins/modal/Modal";
 import Employee from "../types/Employee";
 import useEmployeesStore from "../stores/employeesStore";
 import Modal from "react-ref-modal";
