@@ -14,10 +14,10 @@ type PageSelectorProps = {
     totalPages: number
 }
 
-// Valeurs acceptées dans les cellules
+// Safe typing for cell values
 export type CellValue = string | number | boolean | Date | null | undefined;
 
-// Props génériques avec inférence des types
+// Generic props with type inference
 export interface DataTableProps<T extends Record<string, CellValue>> {
     data: T[];
     className?: string;

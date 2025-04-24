@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { DataTable } from "../../plugins/datatables/datatables";
+import { CellValue, DataTable } from "../../plugins/datatables/datatables";
 import useEmployeesStore from "../../stores/employeesStore";
 //import Employees from "../../mocks/Employees";
 
